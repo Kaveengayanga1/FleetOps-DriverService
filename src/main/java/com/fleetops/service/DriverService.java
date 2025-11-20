@@ -5,9 +5,9 @@ import com.fleetops.dto.Driver;
 import java.util.List;
 
 public interface DriverService {
-    public boolean addDriver(Driver driver);
-    public Driver getDriver(Long id);
-    public List<Driver> getDriverList();
-    public Driver updateDriver(Driver driver);
-    
+    boolean addDriver(Driver driver);
+    Driver getDriver(Long id);
+    List<Driver> getDriverList();
+    Driver updateDriver(Driver driver);
+    boolean deleteDriver(Long id);
 }
